@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Kojo Ahyia-Osae</title>
+    <meta name="veiwport" content="width=device-width,initial-scale=1">
+   
+    <!--This is the framework from w3s school for CSS-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+      
+    </style>
+    <!--This includes the javerscript from w3s school-->
+    <script src="https://www.w3schools.com/lib/w3.js"></script> 
+    <body>
+
+        <!-- Navigation (Stays on Top) -->
+        <div class="w3-top w3-bar w3-black">
+            <a href="#home" class="w3-bar-item w3-button">Home</a>
+            <a href="#about" class="w3-bar-item w3-button">About me</a>
+            <a href="#aboutme" class="w3-bar-item w3-button"></a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+        </div>
+
+        <div id="home" class="w3-content ">
+
+            <!-- Slides -->
+        <img class="slides w3-margin-top w3-border" src="images/code-background.jpg" width="800px" height="550px">
+        <img class="slides  w3-margin-top w3-border" src="images/laptop1.jpg" width="650px" height="550px">
+        <img class="slides  w3-margin-top w3-border" src="images/laptop2.jpg" width="800px" height="550px">
+        <script>
+            w3.slideshow(".slides", 1500);
+        </script>
+
+        <!-- Porftolio -->
+        <div class="w3-container w3-padding-32 w3-center">
+            <h2 class="w3-center">About me</h2>
+
+            <div class="w3-third w3-center w3-border-black">
+                <img src="./images/me2.jpg" alt="Me after being diagnosed hyperropia. New shades." width="80%" height="70%">
+            </div>
+
+            <div class="w3-third w3-center w3-border-black">                <img src="./images/me.jpg" alt="Me at Bo-Kaap."  width="80%" height="70%">
+            </div>
+
+            <div class="w3-third w3-center w3-border-black">
+                <img src="./images/suit.jpg" alt="Me at Janes Wedding."  width="80%" height="70%">
+            </div>
+        </div>
+
+        <!-- About -->
+        <div id="about" class="w3-container w3-padding-32">
+            <h1 class="w3-center">Kojo Ahyia-Osae - Mobile App & Web Developer</h1>
+            <p>Hi welcome to my page. I am a Final year computer science student, aspiring to become a Full-Stack & mobile app developer.          
+            This page will be used to try out all the new and wonderful ideas I discover on my journey learning HTML5 and CSS3</p>
+        </div>
+
+         <!-- Contact -->
+         <div id="contact" class="w3-container w3-center w3-padding-32">
+
+            <h2  class="w3-wide">CONTACT</h2>
+            Cape Town, South Africa<br>
+            PHONE: +27 8450*****<br>
+            EMAIL: kj***@gmail.com<br>
+            <p class="w3-opacity w3-center"><i>Leave a message!</i></p>
+
+            <form action="action_page.php" target="_blank">
+                <input class="w3-input" type="text" placeholder="Name" required name="Name">
+                <input class="w3-input" type="text" placeholder="Email" required name="Email">
+                <input class="w3-input" type="text" placeholder="Message" required name="Message"><br>
+                <button class="w3-button w3-black" type="submit">SEND</button>
+            </form>
+
+            <br>
+            <img src="IG portfolio/images/cpt.jpg" class="w3-image" style="width: 100%;">
+            <p class="w3-center w3-padding">Powered by<a href="https://wwww.w3school.com/w3css/default.asp"
+            title="w3.CSS" target="_blank">w3.css</a></p>
+        </div>
+
+        </div>
+
+    </body>
+</html>
